@@ -11,10 +11,8 @@ html{
 }
 
 header{
-    background-image: url(../img/jumbo.png);
-    background-size:1500px;
-    background-repeat: no-repeat;
-    color: white;
+    background-color:#255EE9;
+    
 }
 
 .container-flex{
@@ -22,14 +20,36 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-top:10px;
+    color: white;
     
 }
 
 
 
-a{
-    color: white;
+
+
+.link{
+    color:white;
+    padding-left: 5px;
+    text-decoration: none;;
 }
+
+.login{
+    display: inline-block;
+    border:1px solid;
+	padding: 0.5em 1em;
+	border-radius: 10em;
+    background-color: white;
+    color:black;
+    
+}
+.btn{
+    text-decoration: none;
+}
+
+    
+
 
 main{
     
@@ -56,6 +76,8 @@ p{
 
 .bottoni{
     padding:10px;
+    border-radius: 20px;
+    border:1px solid white;
 
 }
 
@@ -121,9 +143,22 @@ h2{
 
 .end-main{
     color:black;
-    max-width: 600px;
+    max-width: 1000px;
     margin:0 auto;
     text-align: center;
     padding-top: 50px;
     padding-bottom:7rem;
+}
+
+.img-4{
+    padding-bottom: 3rem;
+}
+
+
+.btn-violet{
+    background-color: blueviolet;
+    border:1px solid blueviolet;
+    padding:0.5rem;
+    border-radius: 20px;
+
 }
